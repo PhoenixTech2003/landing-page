@@ -97,3 +97,54 @@ ul{
     font-weight: 900;
     font-size: 18px;
 }
+
+/*content*/
+
+.content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.content h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.illustration{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.illustration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.illustration-image-container{
+    display: flex;
+    gap: 50px;
+}
+
+.subtext-container{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.subtext-container p{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+}
