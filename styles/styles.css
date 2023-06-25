@@ -148,3 +148,33 @@ ul{
     width: 200px;
     text-align: center;
 }
+
+/*testimonial container*/
+
+.testimonial-container{
+    margin-top: 100px;
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    padding: 50px;
+}
+
+.testimonial-content .quote {
+    font-weight: 50;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.testimonial-content .quoter{
+    font-weight: 900;
+    font-size: 18px;
+    align-self: flex-end;
+    
+}
